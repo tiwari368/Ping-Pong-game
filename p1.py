@@ -64,7 +64,6 @@ def paddle_b_down():
 	y -= 20
 	paddle_b.sety(y)
 
-wn.listen()
 wn.onkeypress(paddle_a_up, "Up")
 wn.onkeypress(paddle_a_down, "Down")
 wn.onkeypress(paddle_b_up, "w")
